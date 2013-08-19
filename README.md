@@ -10,8 +10,8 @@ To use this plugin with [Jekyll](http://jekyllrb.com/), copy `reading_time.rb` t
 
   This function gives an estimate of the amount of time it will take to read the input text. The return value is an integer number of minutes. The input should be HTML (i.e. the text should have already been run through your Markdown or Textile filter). For example, you could use it in a `_layout` file like this:
 
-      {% capture time %}{{ content | reading_time }}{% endcapture %}
-      <p>This article will take {{ time }} {% if time == '1' %}minute{% else %}minutes{% endif %} to read.</p>
+        {% capture time %}{{ content | reading_time }}{% endcapture %}
+        <p>This article will take {{ time }} {% if time == '1' %}minute{% else %}minutes{% endif %} to read.</p>
 
 * count_words
 
