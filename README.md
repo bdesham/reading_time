@@ -1,6 +1,6 @@
 # reading_time
 
-A [Liquid](http://www.liquidmarkup.org/) filter to give you an estimate of how long a passage of text will take to read.
+A [Liquid](http://www.liquidmarkup.org/) filter to estimate how long a passage of text will take to read.
 
 ## Installation and usage
 
