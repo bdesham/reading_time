@@ -13,6 +13,10 @@ To use this plugin with [Jekyll](http://jekyllrb.com/), copy `reading_time.rb` t
         {% capture time %}{{ content | reading_time }}{% endcapture %}
         <p>This article will take {{ time }} {% if time == '1' %}minute{% else %}minutes{% endif %} to read.</p>
 
+  Even better, using the [pluralize](https://github.com/bdesham/pluralize) filter,
+
+        <p>This article will take {{ content | reading_time | pluralize: "minute" }} to read.</p>
+
 * count_words
 
   This function returns the number of words in the input. Like `reading_time`, this function takes HTML as its input.
