@@ -8,13 +8,14 @@ module Jekyll
 		end
 
 		def reading_time(html)
-			(count_words(html) / 220.0).ceil
+			(count_words(html) / 270.0).ceil
 		end
 
 		private
 
 		def text_nodes(root)
-			ignored_tags = %w[ area audio canvas code embed footer form img map math nav object pre script svg table track video ]
+			ignored_tags = %w[ area audio canvas code embed footer form img
+				map math nav object pre script svg table track video ]
 			texts = []
 			root.each_element { |el|
 				unless ignored_tags.include? el.name

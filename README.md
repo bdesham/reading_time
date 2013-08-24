@@ -25,12 +25,13 @@ To use this plugin with [Jekyll](http://jekyllrb.com/), copy `reading_time.rb` t
 
 These functions try to be smart about counting words. Specifically, words are not counted if they are contained within any of the following HTML elements: area, audio, canvas, code, embed, footer, form, img, map, math, nav, object, pre, script, svg, table, track, and video. My intention here is to prevent words from contributing toward the count if they don’t seem to be part of the running text—contrast this with the simple but inaccurate approach of e.g. Jekyll’s built-in `number_of_words`.
 
-The plugin assumes a reading speed of 220 words per minute. Wikipedia [cites](https://en.wikipedia.org/w/index.php?title=Words_per_minute&oldid=569027766#Reading_and_comprehension) a typical value of 250–300 words per minute; I decreased the number for the plugin because my writing on my website tends to be technical and less easy to read.
+The plugin assumes a reading speed of 270 words per minute. Wikipedia [cites](https://en.wikipedia.org/w/index.php?title=Words_per_minute&oldid=569027766#Reading_and_comprehension) 250–300 words per minute as a typical range, and I found that I could read articles on my website at about 270 words per minute.
 
 ## Versioning
 
-Once this project reaches version 1.0.0 it will use [Semantic Versioning 2.0](http://semver.org/).
+The version numbers of this project conform to [Semantic Versioning 2.0](http://semver.org/).
 
+* 1.0.0 (2013-08-24): Changed reading speed from 220 to 270 words per minute.
 * 0.9.0 (2013-08-19): Initial release.
 
 ## Contact
