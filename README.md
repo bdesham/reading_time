@@ -4,7 +4,7 @@ A [Liquid](http://www.liquidmarkup.org/) filter to estimate how long a passage o
 
 ## Installation and usage
 
-To use this plugin with [Jekyll](http://jekyllrb.com/), copy `reading_time.rb` to your `_plugins` folder. The following functions are provided:
+You will need to install Nokogiri. [Full instructions are here](http://nokogiri.org/tutorials/installing_nokogiri.html), but you’ll probably need to do something like `sudo gem install nokogiri`. To use this plugin with [Jekyll](http://jekyllrb.com/), copy `reading_time.rb` to your `_plugins` folder. The following functions are provided:
 
 * reading_time
 
@@ -31,6 +31,10 @@ The plugin assumes a reading speed of 270 words per minute. Wikipedia [cites](ht
 
 The version numbers of this project conform to [Semantic Versioning 2.0](http://semver.org/).
 
+* 1.1.0 (2013-08-30)
+  - Switched from REXML to Nokogiri for HTML parsing.
+  - Input can now be HTML or XHTML. Previously, only valid XML was accepted (so things like non-closed `img` tags would make `reading_time` crash).
+  - Character entities like `&#x8617;` are no longer included in the word count.
 * 1.0.0 (2013-08-24): Changed reading speed from 220 to 270 words per minute.
 * 0.9.0 (2013-08-19): Initial release.
 
