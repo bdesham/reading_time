@@ -4,9 +4,9 @@ A [Liquid](http://www.liquidmarkup.org/) filter that intelligently counts the nu
 
 ## Installation
 
-If you’re using Jekyll, see the Jekyll [documentation on installing plugins](http://jekyllrb.com/docs/plugins/#installing-a-plugin) for installation instructions. This plugin requires Nokogiri, so if you install this one manually you’ll need to make sure that that one is installed too.
+The easiest way to install this plugin is with RubyGems: `gem install liquid_reading_time`.
 
-If you’re using Liquid without Jekyll, install the `liquid_pluralize` Gem and then… I’m not sure.
+If you’re using Jekyll, see the Jekyll [documentation on installing plugins](http://jekyllrb.com/docs/plugins/#installing-a-plugin) for more-detailed installation instructions. This plugin requires Nokogiri, so if you install this one manually you’ll need to make sure that that one is installed too.
 
 # Usage
 
