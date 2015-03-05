@@ -1,12 +1,18 @@
-# reading_time
+# reading\_time
 
-A [Liquid](http://www.liquidmarkup.org/) filter to estimate how long a passage of text will take to read.
+A [Liquid](http://www.liquidmarkup.org/) filter that intelligently counts the number of words in a piece of HTML and estimates how long the text will take to read.
 
-## Installation and usage
+## Installation
 
-You will need to install Nokogiri. [Full instructions are here](http://nokogiri.org/tutorials/installing_nokogiri.html), but you’ll probably need to do something like `sudo gem install nokogiri`. To use this plugin with [Jekyll](http://jekyllrb.com/), copy `reading_time.rb` to your `_plugins` folder. The following functions are provided:
+If you’re using Jekyll, see the Jekyll [documentation on installing plugins](http://jekyllrb.com/docs/plugins/#installing-a-plugin) for installation instructions. This plugin requires Nokogiri, so if you install this one manually you’ll need to make sure that that one is installed too.
 
-* reading_time
+If you’re using Liquid without Jekyll, install the `liquid_pluralize` Gem and then… I’m not sure.
+
+# Usage
+
+Two functions are provided:
+
+* reading\_time
 
   This function gives an estimate of the amount of time it will take to read the input text. The return value is an integer number of minutes. The input should be HTML (i.e. the text should have already been run through your Markdown or Textile filter). For example, you could use it in a `_layout` file like this:
 
@@ -17,7 +23,7 @@ You will need to install Nokogiri. [Full instructions are here](http://nokogiri.
 
         <p>This article will take {{ content | reading_time | pluralize: "minute" }} to read.</p>
 
-* count_words
+* count\_words
 
   This function returns the number of words in the input. Like `reading_time`, this function takes HTML as its input.
 
@@ -38,15 +44,15 @@ The version numbers of this project conform to [Semantic Versioning 2.0](http://
 * 1.0.0 (2013-08-24): Changed reading speed from 220 to 270 words per minute.
 * 0.9.0 (2013-08-19): Initial release.
 
-## Contact
+## Author
 
-E-mail [Benjamin Esham](mailto:benjamin@bdesham.info) with questions or comments.
+Pluralize was created by [Benjamin Esham](http://esham.io).
 
-This project is [hosted on GitHub](https://github.com/bdesham/reading_time). Please feel free to submit issues and pull requests.
+This project is [hosted on GitHub](https://github.com/bdesham/reading_time). Please feel free to submit pull requests.
 
 ## License
 
-Copyright © 2013, Benjamin Esham.  This software is released under the following version of the MIT license:
+Copyright © 2013–2015, Benjamin Esham.  This software is released under the following version of the MIT license:
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following condition: the above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
