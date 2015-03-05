@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
 	s.name				= 'liquid_reading_time'
-	s.version			= '1.1.0'
-	s.date				= '2013-08-30'
+	s.version			= '1.1.1'
+	s.date				= '2015-03-04'
 
 	s.author			= 'Benjamin Esham'
 	s.email				= 'benjamin@esham.io'

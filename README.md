@@ -37,6 +37,9 @@ The plugin assumes a reading speed of 270 words per minute. Wikipedia [cites](ht
 
 The version numbers of this project conform to [Semantic Versioning 2.0](http://semver.org/).
 
+* 1.1.1 (2015-03-04)
+  - Don’t put the `ReadingTime` module in the `Jekyll` module.
+  - Packaged the plugin as a Gem.
 * 1.1.0 (2013-08-30)
   - Switched from REXML to Nokogiri for HTML parsing.
   - Input can now be HTML or XHTML. Previously, only valid XML was accepted (so things like non-closed `img` tags would make `reading_time` crash).
@@ -52,7 +55,7 @@ This project is [hosted on GitHub](https://github.com/bdesham/reading_time). Ple
 
 ## License
 
-Copyright © 2013–2015, Benjamin Esham.  This software is released under the following version of the MIT license:
+Copyright © 2013–2015, Benjamin Esham. This software is released under the following version of the MIT license:
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following condition: the above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
