@@ -49,7 +49,7 @@ The version numbers of this project conform to [Semantic Versioning 2.0](http://
 
 ## Author
 
-Pluralize was created by [Benjamin Esham](http://esham.io).
+This plugin was created by [Benjamin Esham](http://esham.io).
 
 This project is [hosted on GitHub](https://github.com/bdesham/reading_time). Please feel free to submit pull requests.
 
