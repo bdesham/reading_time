@@ -38,7 +38,7 @@ module ReadingTime
 
 	def words(html)
 		fragment = Nokogiri::HTML.fragment html
-		text_nodes(fragment).map { |text| text.scan(/[[:word:]]+/) }.flatten
+		text_nodes(fragment).map { |text| text.scan(/[\p{L}\p{M}'‘’]+/) }.flatten
 	end
 
 end
