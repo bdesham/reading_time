@@ -4,8 +4,8 @@
 #
 # https://github.com/bdesham/reading_time
 #
-# Copyright (c) Benjamin Esham, 2013-2015
-# See README.md for full copyright information.
+# Copyright (c) 2013, 2015 Benjamin D. Esham. This program is released under the
+# ISC license, which you can find in the file LICENSE.md.
 
 require 'nokogiri'
 

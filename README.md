@@ -33,7 +33,13 @@ These functions try to be smart about counting words. Specifically, words are no
 
 The plugin assumes a reading speed of 270 words per minute. Wikipedia [cites](https://en.wikipedia.org/w/index.php?title=Words_per_minute&oldid=569027766#Reading_and_comprehension) 250–300 words per minute as a typical range, and I found that I could read articles on my website at about 270 words per minute.
 
-## Versioning
+## Author
+
+This plugin was created by [Benjamin Esham](https://esham.io).
+
+This project is [hosted on GitHub](https://github.com/bdesham/reading_time). Please feel free to submit pull requests.
+
+## Version history
 
 The version numbers of this project conform to [Semantic Versioning 2.0](http://semver.org/).
 
@@ -51,16 +57,6 @@ The version numbers of this project conform to [Semantic Versioning 2.0](http://
 * 1.0.0 (2013-08-24): Changed reading speed from 220 to 270 words per minute.
 * 0.9.0 (2013-08-19): Initial release.
 
-## Author
-
-This plugin was created by [Benjamin Esham](http://esham.io).
-
-This project is [hosted on GitHub](https://github.com/bdesham/reading_time). Please feel free to submit pull requests.
-
 ## License
 
-Copyright © 2013–2015, Benjamin Esham. This software is released under the following version of the MIT license:
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following condition: the above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-**The software is provided “as is”, without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.**
+Copyright © 2013, 2015 Benjamin D. Esham. This program is released under the ISC license, which you can find in the file LICENSE.md.
