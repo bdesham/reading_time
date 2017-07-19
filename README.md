@@ -43,6 +43,8 @@ This project is [hosted on GitHub](https://github.com/bdesham/reading_time). Ple
 
 The version numbers of this project conform to [Semantic Versioning 2.0](http://semver.org/).
 
+* 1.1.3 (2017-07-19)
+  - Updated the dependencies to reflect that the plugin works with Liquid 4 (without any code changes needed).
 * 1.1.2 (2015-03-07)
   - Apostrophes and curly single quotes shouldn’t break words into two.
   - This plugin works with Liquid 3.x in addition to 2.x; updated the dependencies to reflect that.
@@ -59,4 +61,4 @@ The version numbers of this project conform to [Semantic Versioning 2.0](http://
 
 ## License
 
-Copyright © 2013, 2015 Benjamin D. Esham. This program is released under the ISC license, which you can find in the file LICENSE.md.
+Copyright © 2013, 2015, 2017 Benjamin D. Esham. This program is released under the ISC license, which you can find in the file LICENSE.md.
